@@ -1,0 +1,12 @@
+{
+  "cucumberautocomplete.steps": [
+    "features/step_definitions/**/*.js", // Or .ts, .py, .java etc., depending on your language
+    "src/test/resources/stepdefs/*.java" // Example for Java projects
+  ],
+  "cucumberautocomplete.syncfeatures": "features/**/*.feature",
+  "editor.quickSuggestions": {
+    "comments": false,
+    "strings": true,
+    "other": true
+  }
+}
